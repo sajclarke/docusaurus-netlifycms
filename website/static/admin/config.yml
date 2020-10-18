@@ -17,3 +17,16 @@ collections:
       - { name: title, label: Title, widget: string }
       - { name: sidebar_label, label: Label, widget: string }
       - { name: body, label: Body, widget: markdown }
+  - name: blog
+    label: "blog"
+    folder: website/blog
+    identifier_field: title
+    extension: md
+    widget: "list"
+    create: true
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: author, label: Label, widget: string }
+      - { name: authorURL, label: "Author URL", widget: string }
+      - { name: authorFBID, label: "Author FBID", widget: number }
+      - { name: body, label: Body, widget: markdown }
