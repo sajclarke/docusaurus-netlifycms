@@ -121,4 +121,4 @@ Note that the 'blog' collection reflect is based on the default structure for th
 - Deploy to localhost using `yarn start`
 
 ### Licence
-MIT Licence [View licence](Licence.md)
+MIT Licence [View LICENSE](LICENSE.md)
