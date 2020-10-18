@@ -24,6 +24,7 @@ collections:
     extension: md
     widget: "list"
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - { name: title, label: Title, widget: string }
       - { name: author, label: Label, widget: string }
