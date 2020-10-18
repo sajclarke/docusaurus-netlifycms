@@ -9,12 +9,11 @@ collections:
   - name: docs
     label: "docs"
     folder: docs
-    identifier_field: id
+    identifier_field: title
     extension: md
     widget: "list"
     create: true
     fields:
-      - { name: id, label: Id, widget: string }
       - { name: title, label: Title, widget: string }
-      - { name: sidebar_label, label: Label, widget: text }
+      - { name: sidebar_label, label: Label, widget: string }
       - { name: body, label: Body, widget: markdown }
