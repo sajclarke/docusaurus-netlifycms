@@ -1,0 +1,20 @@
+backend:
+  name: github
+  branch: master # Branch to update (optional; defaults to master)
+  repo: sajclarke/docusaurus-netlifycms
+
+media_folder: assets/img/uploads
+
+collections:
+  - name: docs
+    label: "docs"
+    folder: docs
+    identifier_field: id
+    extension: md
+    widget: "list"
+    create: true
+    fields:
+      - { name: id, label: Id, widget: string }
+      - { name: title, label: Title, widget: string }
+      - { name: sidebar_label, label: Label, widget: text }
+      - { name: body, label: Body, widget: markdown }
