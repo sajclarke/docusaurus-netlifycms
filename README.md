@@ -1,6 +1,6 @@
 ## Using Netlify CMS with Docusaurus
 
-This repo is for using [Netlify-CMS](https://www.netlifycms.org/) in order to edit the documentation and blog posts found in the default website built using [Docusaurus](https://docusaurus.io/) version 1. 
+This repo is for using [Netlify-CMS](https://www.netlifycms.org/) in order to edit the documentation and blog posts found in the default website built using [Docusaurus](https://docusaurus.io/) version 1. According to the [official website](https://v2.docusaurus.io), version 2 is not ready for production
 
 ### Demo
 1. Video demo: https://www.loom.com/share/92ffb0a848ab4ecab13c67cc8ffab47d
